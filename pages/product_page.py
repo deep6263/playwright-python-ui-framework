@@ -18,7 +18,9 @@ class ProductPage(BasePage):
 
     def get_product_names(self) -> list[str]:
         """Get the names of all products on the page."""
-        return self.page.locator(self.PRODUCT_TITLE).all_inner_texts()
+        product_names = self.page.locator(self.PRODUCT_TITLE)
+        product_names.first.wait_for(state="visible")
+        return product_names.all_inner_texts()
 
     def get_product_prices(self) -> list[str]:
         """Get the prices of all products on the page."""
