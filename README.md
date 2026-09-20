@@ -1,5 +1,12 @@
 # Enterprise Playwright Python UI Automation Framework
 
+[![Playwright Python Tests](https://github.com/deep6263/playwright-python-ui-framework/actions/workflows/pytest.yml/badge.svg)](https://github.com/deep6263/playwright-python-ui-framework/actions/workflows/pytest.yml)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Playwright](https://img.shields.io/badge/Playwright-Automation-green)
+![Pytest](https://img.shields.io/badge/Pytest-Test%20Framework-orange)
+
+
+
 A scalable and maintainable UI automation framework built using **Python, Playwright, Pytest, and Allure**.
 
 This project demonstrates enterprise-style test automation practices including Page Object Model, environment-based configuration, reusable fixtures, test data management, failure screenshots, reporting, and CI/CD integration with GitHub Actions.
